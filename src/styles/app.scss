@@ -1,0 +1,47 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8pt;
+}
+
+.sea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.cell:hover {
+  background-color: green;
+}
+
+.cell-0 {
+  background-color: lightblue;
+}
+
+.cell-1 {
+  background-color: blue;
+}
+
+.cell-2 {
+  background-color: orange;
+}
+
+.cell-3 {
+  background-color: red;
+}
