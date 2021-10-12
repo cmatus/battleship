@@ -6,13 +6,13 @@ The object of Battleship is to try and sink all of the other player's ships. All
 
 In the command line (terminal), execute the following command:
 
-`npm i
+npm i
 
 ## Execute the app
 
 In the command line (terminal), execute the following command:
 
-`npm start
+npm start
 
 ## Run the app
 
