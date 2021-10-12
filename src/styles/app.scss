@@ -1,47 +1,71 @@
 * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 8pt;
+  user-select: none;
 }
 
-.sea {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1px;
-}
-
-.row {
+.menu-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1px;
-}
-
-.cell {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-}
-
-.cell:hover {
-  background-color: green;
-}
-
-.cell-0 {
-  background-color: lightblue;
-}
-
-.cell-1 {
+  cursor: pointer;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
   background-color: blue;
+  font-size: 30pt;
 }
 
-.cell-2 {
+.menu-item a {
+  font-size: 30pt;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-item span {
+  font-size: 15pt;
+}
+
+.level-1 {
+  background-color: green;
+  color: white;
+}
+
+.level-2 {
   background-color: orange;
+  color: white;
 }
 
-.cell-3 {
+.level-3 {
   background-color: red;
+  color: white;
+}
+
+.shadow {
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.scroll {
+  overflow-y: overlay;
+  overflow-x: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.scroll:hover::-webkit-scrollbar {
+  background-color: rgba(149, 149, 149, 0.1);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.scroll:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
 }

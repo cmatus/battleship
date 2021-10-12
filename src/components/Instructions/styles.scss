@@ -1,0 +1,21 @@
+@import "../../styles/vars.scss";
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions-title {
+  text-align: center;
+  font-size: 45pt;
+  padding: 100px;
+  height: 100px;
+}
+
+.instructions-text {
+  text-align: justify;
+  font-size: 25pt;
+  padding: 100px;
+}
